@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  backend:
+    image: bhumikaaa123/courses-api-backend
+    ports:
+      - "8080:8080"
+  
+  frontend:
+    image: bhumikaaa123/courses-ui-frontend
+    ports:
+      - "3000:80"
