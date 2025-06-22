@@ -21,8 +21,9 @@ public class CourseInstance {
     @NotBlank
     private String instructor;
 
-    @NotNull
+    @Column(name = "`year`")  // Add backticks around year
     private Integer year;
+
 
     @ManyToOne
     @JoinColumn(name = "course_id")
