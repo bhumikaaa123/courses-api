@@ -45,5 +45,10 @@ This is the backend service for the IIT Bombay Internship Application Assignment
 ## 🐳 Docker
 
 ### Build Docker Image
+
 ```bash
 docker build -t bhumikaaa123/courses-api-backend .
+
+## Run Container
+docker run -p 8080:8080 bhumikaaa123/courses-api-backend
+
